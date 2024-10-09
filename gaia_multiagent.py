@@ -35,7 +35,7 @@ login(os.getenv("HUGGINGFACEHUB_API_TOKEN"))
 print("Make sure you deactivated Tailscale VPN, else some URLs will be blocked!")
 
 OUTPUT_DIR = "output"
-USE_OS_MODELS = True
+USE_OS_MODELS = False
 USE_JSON = False
 
 SET = "validation"
